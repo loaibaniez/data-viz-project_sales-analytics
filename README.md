@@ -183,6 +183,17 @@ The report was published and is available as a live dashboard.
 
 ---
 
+## ⚠️ Caveats & Assumptions
+
+1. **Net Sales** — Assumed that Net Sales should be calculated from the Sales column, as the dataset did not explicitly define this relationship.
+2. **Units Sold format** — Assumed Units Sold were whole numbers; all other measures were treated as currency represented in USD.
+3. **Primary user** — Assumed the primary user is a mid-management sales executive with Power BI experience, based on the business context provided.
+4. **Accessibility** — Assumed an inclusive work environment, which led to the choice of a colorblind-safe palette to cater to all user types.
+5. **Profit Margin** — Added as an extra metric beyond the original requirements, assuming it would provide additional business value for strategic decision-making.
+6. **KPI sort order** — Measures were sorted following the natural sales and profitability funnel: Gross Sales → Discounts → Net Sales → COGs → Profit → Profit Margin → Units Sold.
+
+---
+
 ## 🔮 Future Improvements
 
 1. **Optimize map visual** — The current map visual generates load delays and rendering issues; replacing it with a more performant alternative would improve the overall report experience.
