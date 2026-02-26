@@ -4,6 +4,10 @@ A data visualization project developed as a professional assessment for an Accen
 
 ![Dashboard Preview](dashboard_preview.png)
 
+## 📋 Executive Summary
+
+This Sales Analytics dashboard reveals a consistent two-peak seasonal cycle, with significant revenue spikes in Q2 and Q4 driven by weather patterns and budget closures respectively. The United States leads regional performance with $27.3M in gross sales, while the Government segment dominates with 44% of total sales. Product-level analysis shows Paseo as the top performer across all periods. Notably, December 2014 recorded a 61% YoY growth, signaling a strong and expanding market opportunity worth prioritizing in future resource allocation.
+
 ## 🔗 Link
 
 - 📌 [Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZGJlMGY3MjYtMmIzNS00ZDg3LTlkOWQtZGM3ZWMzZWYwMjdiIiwidCI6IjEyYmMwNzYyLWZiOWEtNDFkNy1iODMyLWIzYWQ1OGE4YzRmOSIsImMiOjR9)
@@ -162,6 +166,29 @@ The report was published and is available as a live dashboard.
 | Figma | Wireframing and UX/UI design |
 | DAX | Measures, time intelligence, dynamic parameters |
 | PowerPoint | Project storytelling and insights's communication |
+
+---
+
+## 📌 Executive Recommendations
+
+1. **Capitalize on Q4 momentum** — Given the consistent Q4 spike, allocate additional budget and resources ahead of October to maximize the seasonal opportunity.
+2. **Prioritize the Government segment** — With 44% of total sales, deepening relationships and expanding offerings within this segment represents the highest-impact growth lever.
+3. **Invest in the US market** — The 61% YoY growth in December 2014 signals untapped potential; a targeted strategy for the US could accelerate overall revenue growth.
+
+## ⚙️ Operational Recommendations
+
+1. **Address the May and November dips** — The consistent low points within Q2 and Q4 suggest an opportunity to implement mid-quarter promotional campaigns to smooth revenue distribution.
+2. **Review underperforming segments** — Channel Partners and Midmarket together represent less than 5% of sales; assess whether investment in these segments is justified or should be reallocated.
+3. **Monitor Paseo dependency** — With Paseo consistently leading product sales, diversifying the top-performing product mix reduces business risk.
+
+---
+
+## 🔮 Future Improvements
+
+1. **Optimize map visual** — The current map visual generates load delays and rendering issues; replacing it with a more performant alternative would improve the overall report experience.
+2. **Forecast layer** — Add a sales projection for upcoming quarters using time intelligence functions, so Sarah can anticipate Q4 demand rather than only analyze it retrospectively.
+3. **Mobile layout** — Design an optimized view for mobile devices, allowing Sarah to consult the dashboard on the go.
+4. **Enhanced period analysis** — Replace or complement current time-based visuals with candlestick charts to better communicate volatility and range, add reference lines for targets or averages, and surface period-over-period variance directly on the visual without requiring tooltip interaction.
 
 ---
 
